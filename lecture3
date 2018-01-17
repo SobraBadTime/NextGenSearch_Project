@@ -1,0 +1,62 @@
+New search system:
+    - need determinant
+
+Search systems:
+    - stateless system: produces the same results for every user, regardless of context
+    - state system: personalizes results
+    Traditional Search System:
+        - Like Googe, Bing, etc.
+        - keyword box
+        - keyword based (originally), now can also type sentences
+    Social Media Search Systems:
+        - Facebook, Twitter
+        - keyword box present
+        - user input box, for data
+        - data source is different than trad. sys.
+    Location, Mobile:
+        - Yelp, Google
+        - Google provides integration
+    Personal:
+        - Based on your own data
+            things like fitbit
+    Ingredients of Search:
+        - Data 
+        - User ("the most important thing"), they provide the need
+
+    Back End = locator, analyzer/ingestor
+    query time operations = query processor, answer retriever, mather/ranker, personalization context, result presenter
+
+Index:
+    - logical view of data
+    - pointers
+    - meta data
+        - hints to us how we should handle the data
+    - 
+
+Projects
+    - Community Engagement
+        - connecting people together (new search)
+    - Personal Navigator
+        - Wellness
+        - Health condition
+        - Time Management
+
+futurehealth.ics.uci.edu
+
+Scope
+    - Projects
+        - problem?
+        - qui bono
+        - how will you help?
+
+??:
+    - Indexing comes between the data and the need
+    - One pass: no work needs to be done before search can be performed
+    - Two pass: an index need to be pre-organized and indexed
+        - at query only the index is looked at
+        - this means there needs to already existing data
+    - Semantic Gap
+        - what the system provides vs. what user means/needs
+        - users think in terms of objects and events
+        - there is always a semantic gap, and is a basic problem in search
+
